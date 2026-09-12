@@ -182,3 +182,12 @@ Full transcripts in `sample_conversations.md`.
 - MCP SDK pinned to `mcp>=1.2,<2` for the v1 API (`FastMCP`).
 - FAISS index is small (~9 chunks) and loads in under a second.
 - All tools are read-only; no booking, payment, or reservation logic.
+
+
+# AI Travel Planning Assistant — Singapore
+
+**Source code:** https://github.com/hban1116/travel-assistant-rag-mcp
+
+A context-aware travel assistant combining a Retrieval-Augmented Generation (RAG)
+knowledge base with live information from MCP tools. Built with LangChain, FAISS,
+Groq, and Streamlit.
